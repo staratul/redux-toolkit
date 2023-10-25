@@ -1,7 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Counter from "./features/counter/Counter";
-import Todo from "./features/counter/Todo";
+import Todo from "./features/todo/Todo";
+import Post from "./features/post/Post";
+import Sport from "./features/sport/Sport";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <Todo />
+        <Post />
+        <Sport />
       </header>
     </div>
   );
